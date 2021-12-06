@@ -1,0 +1,50 @@
+#hover:hover{
+    color: blue;
+}
+#active:active{
+    color: red;
+}
+.Focus:focus{
+    color: salmon;
+    text-decoration: none;
+}
+.child:first-child{
+    border: 2px solid darkcyan;
+}
+.child:last-child{
+    border: 2px outset lightcoral;
+}
+.type:first-of-type{
+    background: lightseagreen;
+}
+h4:first-of-type{
+    background: lime;
+}
+.type:last-of-type{
+    background: magenta;
+}
+h4:last-of-type{
+    background: mediumblue;
+}
+.nth:nth-child(3n+2){
+    color: purple;
+}
+.n li:not(.not2):hover{
+    color: lime;
+}
+q:before{
+    content:'<<';
+    color:blue;
+}
+q:after{
+    content: '>>';
+    color:red;
+}
+.Visited:visited{
+    color: crimson;
+}
+input{
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+}

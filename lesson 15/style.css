@@ -1,0 +1,92 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.header-inner{
+    width: 100%;
+    display: flex;
+    background-color: cornflowerblue;
+}
+.logo{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 2%;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-item:hover{
+    color: red;
+}
+.main{
+    width: 100%;
+    display: flex;
+    height: 300px;
+    background-color: cyan;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    justify-content: center;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: salmon; 
+    flex-wrap: wrap;
+}
+.card{
+    width: 25%;
+    height: 200px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.name{
+    color: white;
+    background-color: black;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.discovered{
+    width: 100%;
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    background-color: yellowgreen;
+    text-align: center;
+    padding-top: 200px;
+}
+@media(max-width:900px){
+    .nav-item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+    }
+
+}
+@media(max-width:700px){
+    .nav-item{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+
+}

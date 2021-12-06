@@ -1,0 +1,35 @@
+.box {
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    font-size: initial;
+    background-color: rgb(10, 207, 20);
+    transition: width 4s;
+}
+.box:hover {
+    width: 100%;
+}
+.animation_block{
+    width: 50%;
+    margin: 0 0 30px 0;
+    padding: 30px;
+    background-color: rgb(10, 207, 20);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block_element{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    font-size: 1px;
+    padding: 1px;
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction:alternate ;
+    opacity: .7;

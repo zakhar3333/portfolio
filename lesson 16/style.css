@@ -1,0 +1,47 @@
+.top{
+    width: 100%;
+    background-color: cadetblue;
+}
+.logo{
+    font-size: 20px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+   display: inline-block;
+   list-style: none;
+   font-family: 'Montserrat', sans-serif;
+}
+ul ul{
+    visibility: hidden;
+    position: relative;
+}
+li{
+    float: left ;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+li:hover>ul{
+    visibility: visible;
+}
+ul ul li{
+    color: #fff;
+    background: darkorange;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+

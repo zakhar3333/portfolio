@@ -1,0 +1,68 @@
+.info{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.Welcome{
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.My{
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.sprint{
+    width:100% ;
+    height:100% ;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:50px;
+    background-color: rgb(51, 153, 255);
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+}
+.lesson{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: rgb(102, 153, 255);
+}
+.lesson-sprint1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h3{
+    position: relative;
+    left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    bottom: 30px;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    position: relative;
+    top: 120px; 
+    left: 85px;
+    border: 2px solid black;
+    text-decoration: none;
+   
+}

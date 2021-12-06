@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_FMbWPlddMulkKIEPbfWWV');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_yj9qwjd', 'template_ue8mn39', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="info">
+            <div class="contact">Contact us</div>
+            <i class="fab fa-facebook-square Facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-discord"></i>
+            <div class="social network"></div>
+            <div class="or">or use our contact form below</div>
+            <form action="" id="contact-form">
+                <input type="hidden" name="contact_number">
+                <input type="email" placeholder="Email" class="mail" name="reply_to">          
+                <input type="text" placeholder="Name" class="Name" name="name">             
+                <h3>Type your message here</h3><br>
+                <input type="text" name="text" class="text">
+                <u><div class="need">Need additional help?</div></u>
+                <input type="submit" value="Contact me" class="contact_me">
+            </form>
+        </div>
+        <div class="Left">
+            <div class="hello">Hello,User!</div>
+            <div class="if">If you want to know more info about our project than</div>
+            <input type="button" value="=>" class="strela">
+        </div>
+    </div>
+        
+</body>
+</html>
