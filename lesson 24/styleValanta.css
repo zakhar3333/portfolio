@@ -1,12 +1,12 @@
 body{
-    width: 100%;
+    width: 1440px;
 }
 .container{
-    width: 100%;
+    width: 1440px;
     background-color: white;
 }
 .header-inner{
-    width: 100%;
+    width: 1440px;
     height: 170px;
 
 }
@@ -122,6 +122,10 @@ body{
 }
 .maistra-img{
     text-align: center;   
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    padding: 17.5px;
 }
 .tour-online{
     width: 205px;
@@ -145,30 +149,65 @@ body{
     background-color: #4AD295;
 }
 .tour-img{
-    margin-bottom:18px;
-    padding-right:18px;
+    width: 19px;
+    height: 18px;
+    padding: 18px;
 }
 hr{
-    width: 1440px;
+    width: 100%;
     color:#D0D0D0; 
 }
 .header-bot{
-    width: 100%;
+    width: 1440px;
     height: 70px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
     
 }
 .header-share{
-    padding-left: 174px;
     display: flex;
-    
+    width: 19px;
+    height: 18px;
+    padding-left: 174px;  
 }
 .header-nav{
-    height: 70px;
-    display: flex;
+    padding-left: 253px;
+    margin-left: 70px;
+    font-family: 'Source Sans 3', sans-serif;
 }
-li{
-    text-decoration: none;
+
+
+
+
+/* INTRO */
+.intro {
+    width: 100%;
 }
+
+.intro-inner{
+    background: url(./header-фон.png);
+    width: 1440px;
+    height: 490px;
+    font-family: 'Source Sans 3', sans-serif;
+    position: relative;
+}
+
+.cost{ 
+    font-family: 'Source Sans 3', sans-serif;
+    position: relative;
+    color: white;
+    width: 220px;
+    height: 35px;
+    margin-left: 199px;
+    margin-top: 104px;
+    border: white solid 2px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-left: 23px;
+    padding-right: 21px;
+    text-align: center;   
+}
+   
