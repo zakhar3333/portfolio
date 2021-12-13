@@ -1,13 +1,20 @@
+body{
+    width: 100%;
+}
 .container{
     width: 100%;
-    height: 1440px;
     background-color: white;
 }
 .header-inner{
     width: 100%;
+    height: 170px;
+
 }
 .header-top{
+    width: 100%;
+    height: 100px;
     display: flex;
+    justify-content: center;
 }
 .header-logo{
     position: relative;
@@ -18,32 +25,31 @@
     padding-left: 100px;
 }
 
-}
+
 .header-language{
     display: flex;
     flex-direction: column;
     padding-top: 28px;
     padding-bottom: 28px;
-    padding-left: 54px;
-
-
-}
-.lang-ru{
-    font-size: 16px;
-    font-family: 'Source Sans 3', sans-serif;
+    padding-left: 53px;
+    display: flex;
 }
 .lang-ua{
     font-size: 16px;
     font-family: 'Source Sans 3', sans-serif;
-    background: #4AD295;
-    border-radius: 2px;
+    text-align: center;
+    font-weight: 400;
 }
-.cash-inner{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 19px;
-    color: #393939;
+.lang-ru{
+    width: 35px;
+    height: 20px;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    background: #4AD295;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: 700;
+    color:#FFFFFF; 
 }
 .header-cash{
     padding-top: 31px;
@@ -52,6 +58,117 @@
     font-size: 60px;
     line-height: 19px;
     color: #393939;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Source Sans 3', sans-serif; 
 }
+.cash-inner{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #393939;
+}
+.header-social{
+    display: flex;
+    padding-top:42px ;
+    padding-left: 51px;
 
+}
+.facebook{
+    margin-right: 11px;
+}
+.instagram{
+    margin-right: 16px;
+}
+.header-phone{
+    font-family: 'Source Sans 3', sans-serif;
+    flex-direction: column;
+    padding-left: 52px  ;
+}
+.first{
+    font-family: 'Source Sans 3', sans-serif; 
+    margin-top: 29px; 
+    font-weight: 700;
+
+}
+.second{
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 24px; 
+    font-weight: 700;
+}
+.header-phone-icon{
+    padding-left: 15px;
+    margin-top: 32px;
+    margin-bottom: 29px;
+}
+.maistra-online{
+    width: 240px;
+    height: 55px;
+    display: flex;
+    margin-left: 61px;
+    margin-top: 23px;
+}
+.maistra-field{
+    background-color:#EFF3F6;
+    width: 185px;
+    height: 55px;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+}
+.maistra-button{
+    width: 55px;
+    height: 55px;
+    background-color:#DD4053;
+}
+.maistra-img{
+    text-align: center;   
+}
+.tour-online{
+    width: 205px;
+    height: 55px;
+    margin-top: 23px;
+    padding-left: 30px;
+    display: flex;
+    
+}
+.tour-field{
+    width: 150px;
+    height: 55px;
+    background-color: #EFF3F6;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.tour-button{
+    width: 55px;
+    height: 55px;
+    background-color: #4AD295;
+}
+.tour-img{
+    margin-bottom:18px;
+    padding-right:18px;
+}
+hr{
+    width: 1440px;
+    color:#D0D0D0; 
+}
+.header-bot{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.header-share{
+    padding-left: 174px;
+    display: flex;
+    
+}
+.header-nav{
+    height: 70px;
+    display: flex;
+}
+li{
+    text-decoration: none;
+}
