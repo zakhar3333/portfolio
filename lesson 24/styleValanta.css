@@ -209,21 +209,35 @@ hr{
 
 
 /* INTRO */
+.container{
+    width: 1440px;
+}
 .intro {
     width: 100%;
+    height: 490px;
+    position: relative;
+    background: url("./header-фон.png");
+}
+
+.gradient {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    z-index: 0;
+    width: 1440px;
+    height: 490px;
 }
 
 .intro-inner{
-    background: url(./header-фон.png);
-    width: 1440px;
-    height: 490px;
+    width: 100%;
     font-family: 'Source Sans 3', sans-serif;
-    position: relative;
+    z-index: 1;
+    padding-top: 104px ;
+    padding-bottom: 123px;
+    padding-left: 200px;
 }
 
 .cost{ 
     font-family: 'Source Sans 3', sans-serif;
- 
     color: white;
     font-size: 24px;
     font-weight: 600;
@@ -231,8 +245,6 @@ hr{
     width: 249px;
     height: 45px;
     position: relative;
-    left: 199px;
-    top: 104px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box; 
 }
@@ -241,7 +253,42 @@ hr{
     font-weight: 500;
     font-size: 45px;
     color: white;
-    margin-left: 195px;
-    margin-top: 169px;
+    z-index: 4;
+    margin-top: 16px;
+    margin-bottom: 40px;
 }
-   
+.podrobnee{
+    font-family: 'Source Sans 3', sans-serif;
+    padding-top: 18px;
+    padding-bottom: 22px;
+    padding-left: 86px;
+    padding-right: 85px;
+    text-align: center;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 16px;
+    background-color:#FFFFFF40;
+    border:0px solid #FFFFFF;
+    text-decoration: none;
+    color:white;   
+}
+.high-level{
+    width: 100%;
+    height: 250px;
+    background-color:#F8F8F8;
+    display: flex;
+    flex-direction: row;
+}
+.vash-turoperator{
+    width: 624px;
+    height: 72px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 198px;
+    margin-right: 722px;
+}
+.high-level-text{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
