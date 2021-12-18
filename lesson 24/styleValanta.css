@@ -276,7 +276,6 @@ hr{
 }
 .high-level{
     width: 100%;
-    height: 250px;
     background-color:#F8F8F8;
     display: flex;
     flex-direction: row;
@@ -296,8 +295,8 @@ hr{
     font-weight: 600;
     font-size: 18px;
     color:#777777;
-    border-top: 15px;
-    border-bottom: 35px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .intro-button{
     display: flex;
@@ -329,5 +328,90 @@ hr{
     border: 1px solid #969696;
 }
 .podhod-servis-class{
-    padding-left: 166px;
+    margin-top: 37px;
+    margin-left: 166px;
+    margin-bottom: 38px;
+}
+.podhod{
+    
+    display: flex;
+    align-items: center;
+    padding-bottom:20px ;
+}
+.img-podhod{
+    width: 20px;
+    height: 20px;
+}
+.podhod-text{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex; 
+    padding-left: 20px;
+}
+.podhod-pic {
+    width: 45px;
+    height: 45px;
+    border: 1.2px dashed #969696;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actual-tour-main{
+    background-color:#E5E5E5;
+    width: 100%;
+}
+.actual-tour-top{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 200px;
+    align-items: center;
+    display: ;
+}
+.tour-line{
+    height: 1px;
+    width: 340px;
+    background: #C4C4C4; 
+    margin-left: 56px;
+    margin-right: 61px; 
+}
+.actual-tour{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+.all-tour{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:#969696;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 1px solid  #969696;
+}
+.strelka-left{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 264px;
+    margin-left: 115px;
+}
+
+.strelka-right{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -top: 224px;
+    margin-left: 1275px;
 }
