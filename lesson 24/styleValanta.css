@@ -359,7 +359,6 @@ hr{
     align-items: center;
 }
 .actual-tour-main{
-    background-color:#E5E5E5;
     width: 100%;
 }
 .actual-tour-top{
@@ -367,7 +366,6 @@ hr{
     padding-top: 100px;
     padding-left: 200px;
     align-items: center;
-    display: ;
 }
 .tour-line{
     height: 1px;
@@ -401,9 +399,11 @@ hr{
     justify-content: center;
     align-items: center;
     margin-top: 264px;
-    margin-left: 115px;
+    margin-left: 35px;
 }
-
+.strelki{
+    display: flex;
+}
 .strelka-right{
     width: 50px;
     height: 50px;
@@ -412,7 +412,105 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    -top: 224px;
-    margin-left: 1275px;
+    margin-top: 264px;
+    margin-left: 1px;
 }
-.actual-tour
+.actual-cards{
+    margin-left: 35px;
+    margin-top: 40px;
+    margin-right: 35px;
+    width: 1110px;
+    height: 480px;
+    display: flex;
+}
+.actual-card{
+    width: 325px;
+    height: 480px;
+    background-color:  #F8F8F8;
+
+}
+.card-img{
+    background: url(./mandarina\ 2.png);
+    width: 327px;
+    height: 250px;
+}
+.location{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color:#FFFFFF;
+    background: #00000059;
+    opacity: 0.8;
+    width: 195px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+.card-zagolovok{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 20px;
+} 
+.card-podzagolovok{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+    line-height: 24px;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+.card-line{
+    width: 280px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    background-color:#E8E8E8;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.ot{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: red;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.main-cost{
+    display: flex;
+}
+.card-cost{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 23px;
+    margin-left: 5px;
+    color: red;
+}
+.main-for-day{
+    display: flex;
+}
+.for-day{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #C9C9C9;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card-data{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-weight: 12px;
+    color:#3E3E3E;
+    margin-top: 33px;
+    margin-left: 44px;
+    color: #C9C9C9;
+
+}
