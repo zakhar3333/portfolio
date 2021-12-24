@@ -376,6 +376,7 @@ hr{
     margin-left: 56px;
     margin-right: 61px; 
 }
+
 .actual-tour{
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 500;
@@ -405,6 +406,7 @@ hr{
 }
 .strelki{
     display: flex;
+    justify-content: center;
 }
 .strelka-right{
     width: 50px;
@@ -424,6 +426,7 @@ hr{
     width: 1110px;
     height: 480px;
     display: flex;
+    justify-content: space-around;
 }
 .actual-card{
     width: 325px;
@@ -431,11 +434,22 @@ hr{
     background-color:  #F8F8F8;
 
 }
-.card-img{
+.card-img1{
     background: url(./mandarina\ 2.png);
     width: 327px;
     height: 250px;
 }
+.card-img2{
+    background: url(./1491655\ 1.png);
+    width: 327px;
+    height: 250px;
+}
+.card-img3{
+    background: url(./276398231\ 1.png);
+    width: 327px;
+    height: 250px;
+}
+
 .location{
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 400px;
@@ -457,15 +471,17 @@ hr{
     font-size: 20px;
     margin-top: 12px;
     margin-left: 20px;
+    height: 49px;
 } 
 .card-podzagolovok{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #848484;
     line-height: 24px;
     margin-top: 29px;
     margin-left: 20px;
+    
 }
 .card-line{
     width: 280px;
@@ -477,22 +493,46 @@ hr{
     margin-left: 20px;
 }
 .card-cost{
+    width: 100%;
     display: flex;
+    
 }
 .ot{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color:#DD4053;
-    
+    padding-top:30px;
+    padding-left:20px;    
 }
 .euro{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 24px;
     color:#DD4053;
+    padding-top: 23px;
+    padding-left: 5px;
 }
-
 .card-bottom{
   display: flex;
+  width: 100%;
+}
+.cost-oneday {
+    width: 66%;
+}
+.cost-data {
+    font-family: 'Montserrat', sans-serif;
+    width: 33%;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 43px;
+    margin-left: 44px;
+}
+.for-day{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #C9C9C9;
+    margin-top: 5px;
+    margin-left: 20px;
 }
