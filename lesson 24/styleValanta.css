@@ -209,6 +209,13 @@ hr{
 
 
 /* INTRO */
+
+
+
+
+
+
+
 .container{
     width: 1440px;
 }
@@ -360,6 +367,14 @@ hr{
     justify-content: center;
     align-items: center;
 }
+/*ACTUAL-TOUR*/
+
+
+
+
+
+
+
 .actual-tour-main{
     width: 100%;
 }
@@ -535,4 +550,362 @@ hr{
     color: #C9C9C9;
     margin-top: 5px;
     margin-left: 20px;
+}
+/*SHARE*/
+
+
+
+
+
+
+.share{
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 198px;
+    width: 1042px;
+}
+.top-line{
+    height: 6px;
+    width: 100%;
+    background-color:#969696;
+}
+.share-main-info{
+    width: 100%;
+    height: 140px;
+    background-color: #F8F8F8;
+    display: flex;
+}
+.otkuda-text-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.otkuda-img{
+        width: 15px;
+        height: 15px;
+}
+.otkuda-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #22222266;
+    margin-left: 5px;
+}
+.otkuda-pole{
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    padding-top: 15px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 46px;
+    margin-left: 30px;
+    margin-top: 10px;
+    opacity: 1;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.kuda-text-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.kuda-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #22222266;
+    margin-left: 9.67px;
+}
+.kuda-pole{
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    border:1px solid rgba(46, 46, 46, 0.2);
+    padding-top:15px;
+    padding-bottom:18px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top: 10px;
+    opacity: 1;
+    color: #22222266;
+}
+.kuda-pole-strelka{
+    margin-left: 40px;
+}
+.data-text-main{
+    display: flex;
+    margin-top: 25px;
+}
+.data-share-img{
+    width: 15px;
+    height: 15px;
+}
+.data-text{
+    margin-left: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #22222266;
+    opacity: 1;
+}
+.data-pole{
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+.data-ot{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #22222266;
+    opacity: 1;
+}
+.data-do{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #22222266;
+    opacity: 1;
+    margin-left: 15px;
+}
+.data-strelka1{
+    margin-left: 40px;
+}
+.data-tire{
+    margin-left: 15px;
+    color:#22222266;
+}
+.data-strelka2{
+    margin-left: 40px;
+}
+.turist-text-main{
+    display: flex;
+    margin-top: 25px;
+}
+.turist-img{
+    width: 15px;
+    height: 15px;
+}
+.turist-text{
+    margin-left: 8.56px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#22222266;
+}
+.turist-pole{
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    padding-top: 15px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #22222266;
+    opacity: 1;
+}
+.nochey-text-main{
+    display: flex;
+    margin-top: 26px;
+}
+.nochey-img{
+    width: 15px;
+    height: 15px;
+}
+.nochey-text{
+    margin-left: 8px;
+    color:#22222266;
+}
+.nochey-pole{
+    display: flex;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 6px;
+}
+.nochey-ot{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #22222266;
+    opacity: 1;
+}
+.nochey-do{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #22222266;
+    opacity: 1;
+    margin-left: 15px;
+}
+.nochey-tire{
+    color:#22222266;
+    margin-left: 15px;
+}
+.nochey-strelka1{
+    margin-left: 10px;
+}
+.nochey-strelka2{
+    margin-left: 10px;
+}
+.buton-share{
+    height: 50px;
+    width: 135px;
+    background-color: red;
+    color: white;
+    margin-top: 52px;
+    margin-left: 22px;
+}
+.button-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:16px ;
+    text-align:center ;
+    padding-top: 15px;
+}
+/*EMAIL*/
+
+
+
+
+
+
+.email-main{
+    width: 100%;
+    background-color:#DD4053;
+    margin-top: 50px;
+}
+.email-name-main{
+    display: flex;
+}
+.email-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+    margin-top:60px;
+    margin-left:201px;
+}
+.email-podzagolovok{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:16px;
+    margin-top:60px;
+    margin-left:57px;
+    color: white;
+}
+.email-field-main{
+    display: flex;
+
+}
+.email-field{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    color:black;
+    border:1px solid white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding-right:344px; 
+    margin-top:34px;
+    margin-left: 203px;
+    margin-bottom: 59px;
+}
+.ya-turist-main{
+    display: flex;
+    margin-top: 46px;
+    margin-left: 51px;
+}
+.ya-turagent-main{
+    display: flex;
+    margin-top: 46px;
+    margin-left: 40px;
+}
+.ya-turist-img{
+    width: 25px;
+    height: 25px;
+}
+.ya-turagent-img{
+    width: 25px;
+    height: 25px;
+}
+.ya-turist-text{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.ya-turagent-text{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.button-otpravit{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border:1px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 71px;
+    padding-right: 72px;
+    margin-top: 34px;
+    margin-left: 50px;
+    background-color: white;
+    color:#DA2032;
+    margin-bottom: 59px;
+}
+/*CHTO TAKOE*/
+
+
+
+
+
+
+
+
+
+
+
+.chto-takoe-img{
+    width: 100%;
+    height: 450px;
+    background-image: url(./GettyImages-685890576-2200x880\ 1.png);
+}
+.text-travel{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 200px;
+    color: white;
+    opacity: 30%;
+    padding-top: 50px;
+    padding-left: 304px;
+    position: absolute;
+}
+.text-chto-takoe{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+    padding-left: 480px;
 }
