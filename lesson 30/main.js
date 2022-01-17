@@ -62,15 +62,19 @@ function begining2 (){
 }
 function begining3 (){
     let a = Number(prompt('input number'))
-    alert(`Obem =${a**3}` )
-    alert(`Ploshad =${6*a**2}` )
+    let O =a**3
+    let P = 6*a**2
+    alert(`Obem =${O}` )
+    alert(`Ploshad =${P}` )
 }
 function begining4 (){
     let a = Number(prompt('input number'))
     let b = Number(prompt('input number'))
     let c = Number(prompt('input number'))
-    alert(`Obem =${a*b*c}` )
-    alert(`Ploshad =${2*(a*b+b*c+a*c)}`)
+    let O = a*b*c
+    let P = 2*(a*b+b*c+a*c)
+    alert(`Obem =${O}` )
+    alert(`Ploshad =${P}`)
 }
 function begining5 (){
     let L = Number(prompt('input number'))
@@ -79,4 +83,23 @@ function begining5 (){
     alert(`radius =${R}`)
     alert(`ploshad =${P}`)
 }
+function begining6 (){
+    let x1 = Number(prompt('input number'))
+    let x2 = Number(prompt('input number'))
+    R = Math.abs(x2-x1)
+    alert(`rastoyanie =${R}`)   
+}
+function begining7 (){
+    let x = Number(prompt('input number'))
+    F = 3*x**6 - 6*x**2 -7
+    alert(`Funkthiya =${F}`)
+    
+}
+function begining8 (){
+    let A = Number(prompt(`input number`))
+    let B = Number(prompt(`input number`))
+    let C = Number(prompt(`input number`))
+    A = B
+}
+
 
