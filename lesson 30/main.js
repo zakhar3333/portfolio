@@ -101,5 +101,139 @@ function begining8 (){
     let C = Number(prompt(`input number`))
     A = B
 }
+function if1 (){
+    let X= Number(prompt(`input number`))
+    if(X > 0) {
+        alert (X+1)
+    } 
+    else{
+        alert(X)
+    }
+}
+function if2 (){
+    let X=Number(prompt(`input number`)) 
+    if(X > 0) {
+        alert (X+1)
+    } 
+    else if(X==0) {
+        alert (X=10)
+    } 
+    else{
+        alert(X-2)
+    } 
+}
+function if3(){
+    let X=Number(prompt(`imput number`))
+    let Y=Number(prompt(`imput number`))
+    if(X<Y){
+        alert (Y)
+        alert (X) 
+    }
+    rlthe
+}
+function Sign(X) {
+    if (X < 0) {
+        return -1
+    } else if (X == 0) {
+        return 0
+    } else {
+        return 1
+    }
+}
+function function1(){
+   
+    
+    let A = +prompt('Input A:')
+    let B = +prompt('Input B:')
+    console.log(Sign(A)+Sign(B))
+}
+function CircleS(R){
+    return Math.PI*R**2
+}
+function function18(){
+    let R= Number(prompt(`vedite radius`))
+    let S = CircleS(R)
+    alert (S)
+}
+function for1(){
+    let N = +prompt('N=')
+    let K = +prompt('K=')
+
+    for (let i = 0; i < N; i++) {
+        alert(i+' '+K)
+    }
+}
+function for2(){
+    let A = +prompt('A=')
+    let B = +prompt('B=')
+
+    for (let i = A; i<= B; i++) {
+        alert(i)
+        
+    }
+    alert(B-A+1)
+}
+function for3(){
+    let A = +prompt('A=')
+    let B = +prompt('B=')
+    for (let i = 1;i <=10;i++){
+        alert(i+'кг конфет = '+i*A)
+    }
+}
+function Series1(){
+        let mas = []
+        for (let i = 0; i < 10;i++) {
+            // let c = +prompt(Input ${i} element)
+            let c =  Math.round(Math.random()*10)
+            mas.push(c)
+            // mas[i] = c
+    
+        }
+        let sum = 0
+        for (let i = 0; i < mas.length; i++) {
+            sum += mas[i]
+        }
+        let sum2 = 0
+        for (const iterator of mas) {
+            sum2 += iterator
+        }
+        console.log(`Sum = ${sum}`)
+        console.log(`Sum2 = ${sum2}`)
+        console.log(mas)
+    }
+
+function Series2(){
+        let mas = []
+        for (let i=0;i<10;i++)  {
+            mas[i] = (Math.random()*15)
+        }
+        let mas2 = []
+        for (let i=0;i<mas.length;i++){
+            mas2[i] = mas[i]%1
+        }
+        alert(mas2)
+
+}
 
 
+
+
+
+
+
+let Proc1 =  function () {
+    let name = prompt('Input your name')
+    localStorage.setItem('my name',name)
+}
+
+let getName = () => {
+    let name = localStorage.getItem('my name')
+    alert(name)
+}
+
+function getStorageKey() {
+    for(let i=0; i<localStorage.length; i++) {
+        let key = localStorage.key(i);
+        alert(`${key}: ${localStorage.getItem(key)}`);
+    }
+}
