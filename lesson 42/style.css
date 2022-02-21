@@ -1,0 +1,49 @@
+.container {
+    background-image: url(./b_5e99b61e0674d.jpg);
+    width: 100%;
+}
+.toDo-h1,.restore-h1 {
+    color: aquamarine;
+    text-align: center;
+}
+
+.toDo--item {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: chartreuse;
+    margin-bottom: 20px;
+}
+#text {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#btn-create {
+    text-align: center;
+    font-size: 35px;
+}
+.main-text {
+    text-align: center;
+}
+.item--text {
+    margin-right: 20px;
+    
+}
+.item--date {
+    margin-right: 30px;
+}
+.btn {
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+}
+#btn-delete {
+    border: 2px solid red;
+    padding: 2px 2px 2px 2px;
+    border-radius: 30px;
+}
