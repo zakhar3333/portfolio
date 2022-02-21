@@ -1,0 +1,56 @@
+.intro-text{
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+}
+.number {
+    text-align: center;
+}
+#num {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-overflow: ellipsis;
+
+}
+
+.button-hero {
+    width: 150px;
+    height: 30px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 1px; 
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.button-hero-main {
+    text-align: center;
+}
+.hero {
+    width: 150px;
+    text-align: center;
+    paddind-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    background-color: rgb(180, 213, 214);
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 30px ;
+}
+.heroes {
+    display: flex;
+    flex-direction: row;
+}

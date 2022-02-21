@@ -1,0 +1,34 @@
+.questions {
+    width: 100%;
+    background-color: cadetblue;
+    color: cyan;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+input {
+    background-color: darkorchid;
+    text-decoration: none;
+}
+.users {
+    display: flex;
+    flex-direction: row;
+}
+.user {
+    width: 150px;
+    text-align: center;
+    paddind-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    background-color: cadetblue;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 30px ;
+}
+.base {
+    text-align: center;
+    color: darkturquoise;
+    background-color: cadetblue;
+    font-size: 30px;
+}
